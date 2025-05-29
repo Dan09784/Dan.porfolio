@@ -1,0 +1,221 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff; 
+    min-height: 100vh;
+    padding: 20px;
+}
+header {
+    position: fixed;
+    top: 3%;
+    left: 40%;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid red;
+    z-index: 1000;
+}
+#titre{
+    margin-top: 32px;
+}
+.banniere  {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    color: #00ffc3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    
+}
+.banniere a{
+    color: #00ffc3;
+}
+#banniere a:hover{
+    color: #ffffff;
+    text-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3;
+}
+h1{
+    font-size: 40px;
+    font-style: italic;
+    color: pink;
+    
+}
+.texa{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.texa img{
+    border: none;
+    border-style: groove;
+    border-radius: 200px;
+    transition: transform 0.3s ease;
+    
+}
+.texa img:hover{
+    transform: scale(1.03);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+button{
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.01);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px;
+}
+button:hover{
+    background: rgba(238, 169, 216, 0.2);
+    transform: scale(1.05);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.3);
+    color: pink;
+}
+.para{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin: 9%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    color: red;
+}
+#toi{
+    text-align: center;
+    margin-top: 20px;
+}
+.wi{
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border-bottom: 4px solid red;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nous{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 4px solid red;
+}
+#bro {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    background: #00ffd9;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    }
+
+    #bro:hover {
+    background: #fff;
+    color: #000;
+    }
+.bbb{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid red;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.bbb p{
+    background-color: rgba(19, 14, 14, 0.05);
+    padding: 15px 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(20, 13, 13, 0.3);
+}
+.bbb p:hover{
+    transform: scale(0.3s);
+}
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00ffd9;
+    }
+
+    input,
+    textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: silver;
+    font-size: 1rem;
+    }
+
+    textarea {
+    height: 120px;
+    resize: none;
+    }
+.sociales a{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin: 30px;
+}
+.lll{
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    background-color: #00ffc3;
+    border-radius: 100px;
+}
+p{
+    font-size: 1.1rem;
+}
+h1{
+    font-size: 2.1rem;
+}
+a{
+    color: wheat;
+}
+@media screen and (max-width:768px){
+    .banniere{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 60px;
+        
+    }
+    
+}

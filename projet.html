@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Dan</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+
+  <header>
+    <button id="menuBtn">☰ Menu</button>
+    <nav id="menu" class="hidden">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="#projets">Mes Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section id="accueil">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <p>Je suis Dan, développeur web passionné.</p>
+    </section>
+
+    <section id="projets">
+      <h2>💼 Mes Projets</h2>
+      <div class="projet">
+        <h3>HealthSphere</h3>
+        <p>Plateforme de sensibilisation à la santé : articles, quiz, conseils personnalisés. 
+            <br>
+            <a href="#">📍Voir plus</a></p>
+      </div>
+      <div class="projet">
+        <h3>Plateforme d’avocats</h3>
+        <p>Application PHP/MySQL pour consultation d’annonces juridiques. <br> <a href="#">📍Voir plus</a></p>
+      </div>
+      <div class="projet">
+        <h3>Site e-commerce (en cours)</h3>
+        <p>Création d’un site de vente avec React/Laravel. <br> <a href="#">📍Voir plus</a></p>
+      </div>
+    </section>
+
+    
+  </main>
+  <footer><section id="contact">
+      <h2>📬 Contact</h2>
+      <p>Email : dan09784@icloud.com</p>
+    </section></footer>
+
+  <script>
+  const menuBtn = document.getElementById("menuBtn");
+const menu = document.getElementById("menu");
+
+// Toggle menu
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
+
+// Fermer le menu en cliquant en dehors
+document.addEventListener("click", (e) => {
+  if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+    menu.classList.add("hidden");
+  }
+});
+</script>
+</body>
+</html>
